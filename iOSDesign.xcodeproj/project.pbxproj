@@ -21,6 +21,10 @@
 		8E815AA31E55AF3400827039 /* buildAssemblyCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E815AA21E55AF3400827039 /* buildAssemblyCar.m */; };
 		8E815AA61E55D93500827039 /* buildCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E815AA51E55D93500827039 /* buildCar.m */; };
 		8E815AAC1E56980F00827039 /* cwlDesignPopularExplanation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E815AAB1E56980F00827039 /* cwlDesignPopularExplanation.m */; };
+		8E815AB01E56C98600827039 /* prototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E815AAF1E56C98600827039 /* prototypeViewController.m */; };
+		8E815AB31E56C99800827039 /* prototypeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E815AB21E56C99800827039 /* prototypeDetailViewController.m */; };
+		8E815AB91E56D62C00827039 /* prototypePeople.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E815AB81E56D62C00827039 /* prototypePeople.m */; };
+		8E815ABD1E56E7CB00827039 /* prototypeStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E815ABC1E56E7CB00827039 /* prototypeStudent.m */; };
 		8EA1FA2B1E515A3A00BA789C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1FA2A1E515A3A00BA789C /* main.m */; };
 		8EA1FA2E1E515A3A00BA789C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1FA2D1E515A3A00BA789C /* AppDelegate.m */; };
 		8EA1FA361E515A3A00BA789C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA1FA351E515A3A00BA789C /* Assets.xcassets */; };
@@ -85,6 +89,14 @@
 		8E815AA51E55D93500827039 /* buildCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = buildCar.m; sourceTree = "<group>"; };
 		8E815AAA1E56980F00827039 /* cwlDesignPopularExplanation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cwlDesignPopularExplanation.h; sourceTree = "<group>"; };
 		8E815AAB1E56980F00827039 /* cwlDesignPopularExplanation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cwlDesignPopularExplanation.m; sourceTree = "<group>"; };
+		8E815AAE1E56C98600827039 /* prototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prototypeViewController.h; sourceTree = "<group>"; };
+		8E815AAF1E56C98600827039 /* prototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prototypeViewController.m; sourceTree = "<group>"; };
+		8E815AB11E56C99800827039 /* prototypeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prototypeDetailViewController.h; sourceTree = "<group>"; };
+		8E815AB21E56C99800827039 /* prototypeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prototypeDetailViewController.m; sourceTree = "<group>"; };
+		8E815AB71E56D62C00827039 /* prototypePeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prototypePeople.h; sourceTree = "<group>"; };
+		8E815AB81E56D62C00827039 /* prototypePeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prototypePeople.m; sourceTree = "<group>"; };
+		8E815ABB1E56E7CB00827039 /* prototypeStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prototypeStudent.h; sourceTree = "<group>"; };
+		8E815ABC1E56E7CB00827039 /* prototypeStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prototypeStudent.m; sourceTree = "<group>"; };
 		8EA1FA261E515A3A00BA789C /* iOSDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA1FA2A1E515A3A00BA789C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EA1FA2C1E515A3A00BA789C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -201,6 +213,21 @@
 			name = buildCharacter;
 			sourceTree = "<group>";
 		};
+		8E815AAD1E56C90E00827039 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				8E815AAE1E56C98600827039 /* prototypeViewController.h */,
+				8E815AAF1E56C98600827039 /* prototypeViewController.m */,
+				8E815AB11E56C99800827039 /* prototypeDetailViewController.h */,
+				8E815AB21E56C99800827039 /* prototypeDetailViewController.m */,
+				8E815AB71E56D62C00827039 /* prototypePeople.h */,
+				8E815AB81E56D62C00827039 /* prototypePeople.m */,
+				8E815ABB1E56E7CB00827039 /* prototypeStudent.h */,
+				8E815ABC1E56E7CB00827039 /* prototypeStudent.m */,
+			);
+			name = Prototype;
+			sourceTree = "<group>";
+		};
 		8EA1FA1D1E515A3A00BA789C = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +323,7 @@
 		8EA1FA6A1E51982E00BA789C /* DesignController */ = {
 			isa = PBXGroup;
 			children = (
+				8E815AAD1E56C90E00827039 /* Prototype */,
 				8E815A261E52ECCE00827039 /* Builder */,
 				8E815A191E529D1A00827039 /* AbstractFactory */,
 				8EC692401E51EB4900CE331D /* Factory */,
@@ -471,11 +499,14 @@
 				8E815AAC1E56980F00827039 /* cwlDesignPopularExplanation.m in Sources */,
 				8E815A1C1E529DF700827039 /* abstractFactoryViewController.m in Sources */,
 				8EA1FA2B1E515A3A00BA789C /* main.m in Sources */,
+				8E815AB91E56D62C00827039 /* prototypePeople.m in Sources */,
 				8E815AA31E55AF3400827039 /* buildAssemblyCar.m in Sources */,
 				8E815A2C1E52F10900827039 /* builderDetailViewController.m in Sources */,
 				8EA1FA6E1E51988000BA789C /* singletonViewController.m in Sources */,
+				8E815AB31E56C99800827039 /* prototypeDetailViewController.m in Sources */,
 				8E815A1F1E529E0400827039 /* abstractFactoryDetailViewController.m in Sources */,
 				8E815A291E52ED1700827039 /* builderViewController.m in Sources */,
+				8E815ABD1E56E7CB00827039 /* prototypeStudent.m in Sources */,
 				8E815A8F1E55884D00827039 /* builderStandarCharacterBuilder.m in Sources */,
 				8E815AA61E55D93500827039 /* buildCar.m in Sources */,
 				8EA1FA641E518E0800BA789C /* cwlDesignListCell.m in Sources */,
@@ -484,6 +515,7 @@
 				8EC6923C1E51AA8F00CE331D /* singletonDetailViewController.m in Sources */,
 				8EC6924F1E51F83400CE331D /* Device.m in Sources */,
 				8E815A921E558C0700827039 /* builderChasingGame.m in Sources */,
+				8E815AB01E56C98600827039 /* prototypeViewController.m in Sources */,
 				8E815A891E5582FD00827039 /* builderCharacter.m in Sources */,
 				8EA1FA5F1E515B1200BA789C /* cwlDesignViewController.m in Sources */,
 				8E815A8C1E5584DF00827039 /* builderCharacterBuilder.m in Sources */,
