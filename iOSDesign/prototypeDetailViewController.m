@@ -15,6 +15,9 @@
 @interface prototypeDetailViewController ()
 
 @property (nonatomic, strong) NSString *content;
+@property (nonatomic, strong) UIButton *addButton;
+@property (nonatomic, strong) UIButton *delButton;
+
 
 @end
 
@@ -56,8 +59,7 @@
 
 
 - (void)setup{
-    
-    
+
     /* 以下两个例子， 请从指针与内存块的角度理解一下什么为深拷贝与浅拷贝*/
     /* 在CocoaTouch框架， 使用原型模式， 一般都要会用NSCopying协议*/
     NSString *string = @"原型模式例子";
@@ -73,7 +75,7 @@
     NSLog(@"\n========================\nstring = %p \ncopyString = %p \nmutableCopyString = %p\n========================", string1, copyString1, mutableCopyString1);
     
     
-    
+    /*例子1*/
     /*可以看到 personTwo的创建，非常方便快捷*/
     
     prototypeStudent *personOne    = [[prototypeStudent alloc] init];
@@ -86,6 +88,11 @@
     personTwo.name       = @"LiSi";
     NSLog(@"%@ %@ %@ %@", personTwo, personTwo.name, personTwo.age, personTwo.infomation);
    
+    
+    /*例子2*/
+    
+    
+    
     
     
     

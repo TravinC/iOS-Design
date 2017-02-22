@@ -41,6 +41,7 @@
 		8EC692461E51ED6F00CE331D /* factoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC692451E51ED6F00CE331D /* factoryDetailViewController.m */; };
 		8EC692491E51F3F200CE331D /* factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC692481E51F3F200CE331D /* factory.m */; };
 		8EC6924F1E51F83400CE331D /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6924E1E51F83400CE331D /* Device.m */; };
+		8EF84DB41E5D798500E5DC07 /* cwlDesignModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DB31E5D798500E5DC07 /* cwlDesignModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +131,8 @@
 		8EC692481E51F3F200CE331D /* factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = factory.m; sourceTree = "<group>"; };
 		8EC6924D1E51F83400CE331D /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
 		8EC6924E1E51F83400CE331D /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		8EF84DB21E5D798500E5DC07 /* cwlDesignModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cwlDesignModel.h; sourceTree = "<group>"; };
+		8EF84DB31E5D798500E5DC07 /* cwlDesignModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cwlDesignModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +160,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E815A191E529D1A00827039 /* AbstractFactory */ = {
+		8E815A191E529D1A00827039 /* AbstractFactory（抽象工厂） */ = {
 			isa = PBXGroup;
 			children = (
 				8E815A1A1E529DF700827039 /* abstractFactoryViewController.h */,
@@ -167,10 +170,10 @@
 				8E815A231E52E11A00827039 /* abstractFactoryButton.h */,
 				8E815A241E52E11A00827039 /* abstractFactoryButton.m */,
 			);
-			name = AbstractFactory;
+			name = "AbstractFactory（抽象工厂）";
 			sourceTree = "<group>";
 		};
-		8E815A261E52ECCE00827039 /* Builder */ = {
+		8E815A261E52ECCE00827039 /* Builder（生成器） */ = {
 			isa = PBXGroup;
 			children = (
 				8E815AA01E55AEAC00827039 /* buildCharacter */,
@@ -180,7 +183,7 @@
 				8E815A2A1E52F10900827039 /* builderDetailViewController.h */,
 				8E815A2B1E52F10900827039 /* builderDetailViewController.m */,
 			);
-			name = Builder;
+			name = "Builder（生成器）";
 			sourceTree = "<group>";
 		};
 		8E815A9F1E55AEA000827039 /* buildCar */ = {
@@ -213,7 +216,7 @@
 			name = buildCharacter;
 			sourceTree = "<group>";
 		};
-		8E815AAD1E56C90E00827039 /* Prototype */ = {
+		8E815AAD1E56C90E00827039 /* Prototype（原型） */ = {
 			isa = PBXGroup;
 			children = (
 				8E815AAE1E56C98600827039 /* prototypeViewController.h */,
@@ -225,7 +228,7 @@
 				8E815ABB1E56E7CB00827039 /* prototypeStudent.h */,
 				8E815ABC1E56E7CB00827039 /* prototypeStudent.m */,
 			);
-			name = Prototype;
+			name = "Prototype（原型）";
 			sourceTree = "<group>";
 		};
 		8EA1FA1D1E515A3A00BA789C = {
@@ -251,7 +254,14 @@
 		8EA1FA281E515A3A00BA789C /* iOSDesign */ = {
 			isa = PBXGroup;
 			children = (
-				8EA1FA6A1E51982E00BA789C /* DesignController */,
+				8EF84DAB1E5D719600E5DC07 /* 对象状态 */,
+				8EF84DAA1E5D718800E5DC07 /* 性能与对象访问 */,
+				8EF84DA91E5D717C00E5DC07 /* 算法封装 */,
+				8EF84D9E1E5D3E1600E5DC07 /* 行为扩展 */,
+				8EF84D9D1E5D3E0F00E5DC07 /* 抽象集合 */,
+				8EF84D9C1E5D3E0500E5DC07 /* 对象去耦 */,
+				8EF84D9F1E5D3E4200E5DC07 /* 接口适配 */,
+				8EA1FA6A1E51982E00BA789C /* 对象创建 */,
 				8EA1FA661E5196D500BA789C /* Model */,
 				8EA1FA651E518E1000BA789C /* View */,
 				8EA1FA5C1E515ACA00BA789C /* RootController */,
@@ -316,23 +326,25 @@
 			children = (
 				8EA1FA671E51979500BA789C /* cwlDesignListModel.h */,
 				8EA1FA681E51979500BA789C /* cwlDesignListModel.m */,
+				8EF84DB21E5D798500E5DC07 /* cwlDesignModel.h */,
+				8EF84DB31E5D798500E5DC07 /* cwlDesignModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
 		};
-		8EA1FA6A1E51982E00BA789C /* DesignController */ = {
+		8EA1FA6A1E51982E00BA789C /* 对象创建 */ = {
 			isa = PBXGroup;
 			children = (
-				8E815AAD1E56C90E00827039 /* Prototype */,
-				8E815A261E52ECCE00827039 /* Builder */,
-				8E815A191E529D1A00827039 /* AbstractFactory */,
-				8EC692401E51EB4900CE331D /* Factory */,
-				8EA1FA6B1E51986200BA789C /* Singleton */,
+				8E815AAD1E56C90E00827039 /* Prototype（原型） */,
+				8E815A261E52ECCE00827039 /* Builder（生成器） */,
+				8E815A191E529D1A00827039 /* AbstractFactory（抽象工厂） */,
+				8EC692401E51EB4900CE331D /* Factory（简单工厂） */,
+				8EA1FA6B1E51986200BA789C /* Singleton（单例模式） */,
 			);
-			name = DesignController;
+			name = "对象创建";
 			sourceTree = "<group>";
 		};
-		8EA1FA6B1E51986200BA789C /* Singleton */ = {
+		8EA1FA6B1E51986200BA789C /* Singleton（单例模式） */ = {
 			isa = PBXGroup;
 			children = (
 				8EA1FA6C1E51988000BA789C /* singletonViewController.h */,
@@ -342,10 +354,10 @@
 				8EC6923D1E51BB0800CE331D /* Singleton.h */,
 				8EC6923E1E51BB0800CE331D /* Singleton.m */,
 			);
-			name = Singleton;
+			name = "Singleton（单例模式）";
 			sourceTree = "<group>";
 		};
-		8EC692401E51EB4900CE331D /* Factory */ = {
+		8EC692401E51EB4900CE331D /* Factory（简单工厂） */ = {
 			isa = PBXGroup;
 			children = (
 				8EC692411E51ED6000CE331D /* factoryViewController.h */,
@@ -357,7 +369,184 @@
 				8EC6924D1E51F83400CE331D /* Device.h */,
 				8EC6924E1E51F83400CE331D /* Device.m */,
 			);
-			name = Factory;
+			name = "Factory（简单工厂）";
+			sourceTree = "<group>";
+		};
+		8EF84D9B1E5D3DD300E5DC07 /* Adapter（适配器） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Adapter（适配器）";
+			sourceTree = "<group>";
+		};
+		8EF84D9C1E5D3E0500E5DC07 /* 对象去耦 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF84DA31E5D3F0000E5DC07 /* Observer（观察者） */,
+				8EF84DA21E5D3ED000E5DC07 /* Mediator（中介者） */,
+			);
+			name = "对象去耦";
+			sourceTree = "<group>";
+		};
+		8EF84D9D1E5D3E0F00E5DC07 /* 抽象集合 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF84DA51E5D6B6500E5DC07 /* Iterator（迭代） */,
+				8EF84DA41E5D637800E5DC07 /* Composite（组合） */,
+			);
+			name = "抽象集合";
+			sourceTree = "<group>";
+		};
+		8EF84D9E1E5D3E1600E5DC07 /* 行为扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF84DA81E5D6BD900E5DC07 /* Chain of Responsibility（责任链） */,
+				8EF84DA71E5D6BB300E5DC07 /* Decrator（装饰） */,
+				8EF84DA61E5D6B8600E5DC07 /* Visitor（访问） */,
+			);
+			name = "行为扩展";
+			sourceTree = "<group>";
+		};
+		8EF84D9F1E5D3E4200E5DC07 /* 接口适配 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF84DA11E5D3E9800E5DC07 /* Facade（外观） */,
+				8EF84DA01E5D3E6F00E5DC07 /* Bridge（桥接） */,
+				8EF84D9B1E5D3DD300E5DC07 /* Adapter（适配器） */,
+			);
+			name = "接口适配";
+			sourceTree = "<group>";
+		};
+		8EF84DA01E5D3E6F00E5DC07 /* Bridge（桥接） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Bridge（桥接）";
+			sourceTree = "<group>";
+		};
+		8EF84DA11E5D3E9800E5DC07 /* Facade（外观） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Facade（外观）";
+			sourceTree = "<group>";
+		};
+		8EF84DA21E5D3ED000E5DC07 /* Mediator（中介者） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Mediator（中介者）";
+			sourceTree = "<group>";
+		};
+		8EF84DA31E5D3F0000E5DC07 /* Observer（观察者） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Observer（观察者）";
+			sourceTree = "<group>";
+		};
+		8EF84DA41E5D637800E5DC07 /* Composite（组合） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Composite（组合）";
+			sourceTree = "<group>";
+		};
+		8EF84DA51E5D6B6500E5DC07 /* Iterator（迭代） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Iterator（迭代）";
+			sourceTree = "<group>";
+		};
+		8EF84DA61E5D6B8600E5DC07 /* Visitor（访问） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Visitor（访问）";
+			sourceTree = "<group>";
+		};
+		8EF84DA71E5D6BB300E5DC07 /* Decrator（装饰） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Decrator（装饰）";
+			sourceTree = "<group>";
+		};
+		8EF84DA81E5D6BD900E5DC07 /* Chain of Responsibility（责任链） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Chain of Responsibility（责任链）";
+			sourceTree = "<group>";
+		};
+		8EF84DA91E5D717C00E5DC07 /* 算法封装 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF84DAE1E5D750B00E5DC07 /* Command（命令） */,
+				8EF84DAD1E5D71EE00E5DC07 /* Strategy（策略） */,
+				8EF84DAC1E5D71AA00E5DC07 /* Template Method（模板方法） */,
+			);
+			name = "算法封装";
+			sourceTree = "<group>";
+		};
+		8EF84DAA1E5D718800E5DC07 /* 性能与对象访问 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF84DB01E5D75BF00E5DC07 /* Proxy（代理） */,
+				8EF84DAF1E5D752000E5DC07 /* Flyweight（享元） */,
+			);
+			name = "性能与对象访问";
+			sourceTree = "<group>";
+		};
+		8EF84DAB1E5D719600E5DC07 /* 对象状态 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF84DB11E5D75D500E5DC07 /* Memento（备忘录） */,
+			);
+			name = "对象状态";
+			sourceTree = "<group>";
+		};
+		8EF84DAC1E5D71AA00E5DC07 /* Template Method（模板方法） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Template Method（模板方法）";
+			sourceTree = "<group>";
+		};
+		8EF84DAD1E5D71EE00E5DC07 /* Strategy（策略） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Strategy（策略）";
+			sourceTree = "<group>";
+		};
+		8EF84DAE1E5D750B00E5DC07 /* Command（命令） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Command（命令）";
+			sourceTree = "<group>";
+		};
+		8EF84DAF1E5D752000E5DC07 /* Flyweight（享元） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Flyweight（享元）";
+			sourceTree = "<group>";
+		};
+		8EF84DB01E5D75BF00E5DC07 /* Proxy（代理） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Proxy（代理）";
+			sourceTree = "<group>";
+		};
+		8EF84DB11E5D75D500E5DC07 /* Memento（备忘录） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Memento（备忘录）";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,6 +684,7 @@
 				8EA1FA2E1E515A3A00BA789C /* AppDelegate.m in Sources */,
 				8EC6923F1E51BB0800CE331D /* Singleton.m in Sources */,
 				8E815A251E52E11A00827039 /* abstractFactoryButton.m in Sources */,
+				8EF84DB41E5D798500E5DC07 /* cwlDesignModel.m in Sources */,
 				8EC692461E51ED6F00CE331D /* factoryDetailViewController.m in Sources */,
 				8E815AAC1E56980F00827039 /* cwlDesignPopularExplanation.m in Sources */,
 				8E815A1C1E529DF700827039 /* abstractFactoryViewController.m in Sources */,
