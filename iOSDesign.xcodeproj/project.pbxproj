@@ -42,6 +42,39 @@
 		8EC692491E51F3F200CE331D /* factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC692481E51F3F200CE331D /* factory.m */; };
 		8EC6924F1E51F83400CE331D /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6924E1E51F83400CE331D /* Device.m */; };
 		8EF84DB41E5D798500E5DC07 /* cwlDesignModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DB31E5D798500E5DC07 /* cwlDesignModel.m */; };
+		8EF84DB71E5E811D00E5DC07 /* baseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DB61E5E811D00E5DC07 /* baseViewController.m */; };
+		8EF84DBA1E5E81F800E5DC07 /* adapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DB91E5E81F800E5DC07 /* adapterViewController.m */; };
+		8EF84DBD1E5E84F500E5DC07 /* adapterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DBC1E5E84F500E5DC07 /* adapterDetailViewController.m */; };
+		8EF84DC01E5E872300E5DC07 /* bridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DBF1E5E872300E5DC07 /* bridgeViewController.m */; };
+		8EF84DC31E5E878100E5DC07 /* bridgeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DC21E5E878100E5DC07 /* bridgeDetailViewController.m */; };
+		8EF84DC61E5EBC7900E5DC07 /* facadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DC51E5EBC7900E5DC07 /* facadeViewController.m */; };
+		8EF84DC91E5EBC9400E5DC07 /* facadeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DC81E5EBC9400E5DC07 /* facadeDetailViewController.m */; };
+		8EF84DCC1E5EBE4E00E5DC07 /* mediatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DCB1E5EBE4E00E5DC07 /* mediatorViewController.m */; };
+		8EF84DCF1E5EBEE900E5DC07 /* mediatorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DCE1E5EBEE900E5DC07 /* mediatorDetailViewController.m */; };
+		8EF84DD21E5EC0AF00E5DC07 /* observerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DD11E5EC0AF00E5DC07 /* observerViewController.m */; };
+		8EF84DD51E5EC0E400E5DC07 /* observerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DD41E5EC0E400E5DC07 /* observerDetailViewController.m */; };
+		8EF84DD81E5ECCE500E5DC07 /* compositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DD71E5ECCE500E5DC07 /* compositeViewController.m */; };
+		8EF84DDB1E5ECCF200E5DC07 /* compositeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DDA1E5ECCF200E5DC07 /* compositeDetailViewController.m */; };
+		8EF84DE41E5ECF5200E5DC07 /* iteratorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DE31E5ECF5200E5DC07 /* iteratorDetailViewController.m */; };
+		8EF84DE71E5ECF6100E5DC07 /* iteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DE61E5ECF6100E5DC07 /* iteratorViewController.m */; };
+		8EF84DEA1E5ED04800E5DC07 /* visitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DE91E5ED04800E5DC07 /* visitorViewController.m */; };
+		8EF84DED1E5ED05800E5DC07 /* decratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DEC1E5ED05800E5DC07 /* decratorViewController.m */; };
+		8EF84DF01E5ED07100E5DC07 /* chainOfResponsibilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DEF1E5ED07100E5DC07 /* chainOfResponsibilityViewController.m */; };
+		8EF84DF31E5ED25300E5DC07 /* visitorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DF21E5ED25300E5DC07 /* visitorDetailViewController.m */; };
+		8EF84DF61E5ED25E00E5DC07 /* decratorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DF51E5ED25E00E5DC07 /* decratorDetailViewController.m */; };
+		8EF84DF91E5ED27100E5DC07 /* chainOfResponsibilityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DF81E5ED27100E5DC07 /* chainOfResponsibilityDetailViewController.m */; };
+		8EF84DFC1E5ED40C00E5DC07 /* templateMethodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DFB1E5ED40C00E5DC07 /* templateMethodDetailViewController.m */; };
+		8EF84DFF1E5ED41F00E5DC07 /* strategyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84DFE1E5ED41F00E5DC07 /* strategyDetailViewController.m */; };
+		8EF84E021E5ED43B00E5DC07 /* commandDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84E011E5ED43B00E5DC07 /* commandDetailViewController.m */; };
+		8EF84E051E5ED44A00E5DC07 /* flyweightDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84E041E5ED44A00E5DC07 /* flyweightDetailViewController.m */; };
+		8EF84E081E5ED45400E5DC07 /* proxyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84E071E5ED45400E5DC07 /* proxyDetailViewController.m */; };
+		8EF84E0B1E5ED46600E5DC07 /* mementoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84E0A1E5ED46600E5DC07 /* mementoDetailViewController.m */; };
+		8EF84E0E1E5ED49500E5DC07 /* templateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84E0D1E5ED49500E5DC07 /* templateMethodViewController.m */; };
+		8EF84E111E5ED4A500E5DC07 /* strategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84E101E5ED4A500E5DC07 /* strategyViewController.m */; };
+		8EF84E141E5ED4B300E5DC07 /* commandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84E131E5ED4B300E5DC07 /* commandViewController.m */; };
+		8EF84E171E5ED4BC00E5DC07 /* flyweightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84E161E5ED4BC00E5DC07 /* flyweightViewController.m */; };
+		8EF84E1A1E5ED4C800E5DC07 /* proxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84E191E5ED4C800E5DC07 /* proxyViewController.m */; };
+		8EF84E1D1E5ED4D500E5DC07 /* mementoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF84E1C1E5ED4D500E5DC07 /* mementoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +166,72 @@
 		8EC6924E1E51F83400CE331D /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 		8EF84DB21E5D798500E5DC07 /* cwlDesignModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cwlDesignModel.h; sourceTree = "<group>"; };
 		8EF84DB31E5D798500E5DC07 /* cwlDesignModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cwlDesignModel.m; sourceTree = "<group>"; };
+		8EF84DB51E5E811D00E5DC07 /* baseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseViewController.h; sourceTree = "<group>"; };
+		8EF84DB61E5E811D00E5DC07 /* baseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseViewController.m; sourceTree = "<group>"; };
+		8EF84DB81E5E81F800E5DC07 /* adapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adapterViewController.h; sourceTree = "<group>"; };
+		8EF84DB91E5E81F800E5DC07 /* adapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = adapterViewController.m; sourceTree = "<group>"; };
+		8EF84DBB1E5E84F500E5DC07 /* adapterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adapterDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DBC1E5E84F500E5DC07 /* adapterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = adapterDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DBE1E5E872300E5DC07 /* bridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridgeViewController.h; sourceTree = "<group>"; };
+		8EF84DBF1E5E872300E5DC07 /* bridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridgeViewController.m; sourceTree = "<group>"; };
+		8EF84DC11E5E878100E5DC07 /* bridgeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridgeDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DC21E5E878100E5DC07 /* bridgeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridgeDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DC41E5EBC7900E5DC07 /* facadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facadeViewController.h; sourceTree = "<group>"; };
+		8EF84DC51E5EBC7900E5DC07 /* facadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = facadeViewController.m; sourceTree = "<group>"; };
+		8EF84DC71E5EBC9400E5DC07 /* facadeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facadeDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DC81E5EBC9400E5DC07 /* facadeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = facadeDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DCA1E5EBE4E00E5DC07 /* mediatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mediatorViewController.h; sourceTree = "<group>"; };
+		8EF84DCB1E5EBE4E00E5DC07 /* mediatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mediatorViewController.m; sourceTree = "<group>"; };
+		8EF84DCD1E5EBEE900E5DC07 /* mediatorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mediatorDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DCE1E5EBEE900E5DC07 /* mediatorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mediatorDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DD01E5EC0AF00E5DC07 /* observerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = observerViewController.h; sourceTree = "<group>"; };
+		8EF84DD11E5EC0AF00E5DC07 /* observerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = observerViewController.m; sourceTree = "<group>"; };
+		8EF84DD31E5EC0E400E5DC07 /* observerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = observerDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DD41E5EC0E400E5DC07 /* observerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = observerDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DD61E5ECCE500E5DC07 /* compositeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compositeViewController.h; sourceTree = "<group>"; };
+		8EF84DD71E5ECCE500E5DC07 /* compositeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = compositeViewController.m; sourceTree = "<group>"; };
+		8EF84DD91E5ECCF100E5DC07 /* compositeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compositeDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DDA1E5ECCF200E5DC07 /* compositeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = compositeDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DE21E5ECF5200E5DC07 /* iteratorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iteratorDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DE31E5ECF5200E5DC07 /* iteratorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iteratorDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DE51E5ECF6100E5DC07 /* iteratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iteratorViewController.h; sourceTree = "<group>"; };
+		8EF84DE61E5ECF6100E5DC07 /* iteratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iteratorViewController.m; sourceTree = "<group>"; };
+		8EF84DE81E5ED04800E5DC07 /* visitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visitorViewController.h; sourceTree = "<group>"; };
+		8EF84DE91E5ED04800E5DC07 /* visitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = visitorViewController.m; sourceTree = "<group>"; };
+		8EF84DEB1E5ED05800E5DC07 /* decratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decratorViewController.h; sourceTree = "<group>"; };
+		8EF84DEC1E5ED05800E5DC07 /* decratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = decratorViewController.m; sourceTree = "<group>"; };
+		8EF84DEE1E5ED07100E5DC07 /* chainOfResponsibilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chainOfResponsibilityViewController.h; sourceTree = "<group>"; };
+		8EF84DEF1E5ED07100E5DC07 /* chainOfResponsibilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chainOfResponsibilityViewController.m; sourceTree = "<group>"; };
+		8EF84DF11E5ED25300E5DC07 /* visitorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visitorDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DF21E5ED25300E5DC07 /* visitorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = visitorDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DF41E5ED25E00E5DC07 /* decratorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decratorDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DF51E5ED25E00E5DC07 /* decratorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = decratorDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DF71E5ED27100E5DC07 /* chainOfResponsibilityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chainOfResponsibilityDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DF81E5ED27100E5DC07 /* chainOfResponsibilityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chainOfResponsibilityDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DFA1E5ED40C00E5DC07 /* templateMethodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = templateMethodDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DFB1E5ED40C00E5DC07 /* templateMethodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = templateMethodDetailViewController.m; sourceTree = "<group>"; };
+		8EF84DFD1E5ED41F00E5DC07 /* strategyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strategyDetailViewController.h; sourceTree = "<group>"; };
+		8EF84DFE1E5ED41F00E5DC07 /* strategyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = strategyDetailViewController.m; sourceTree = "<group>"; };
+		8EF84E001E5ED43B00E5DC07 /* commandDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commandDetailViewController.h; sourceTree = "<group>"; };
+		8EF84E011E5ED43B00E5DC07 /* commandDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = commandDetailViewController.m; sourceTree = "<group>"; };
+		8EF84E031E5ED44A00E5DC07 /* flyweightDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyweightDetailViewController.h; sourceTree = "<group>"; };
+		8EF84E041E5ED44A00E5DC07 /* flyweightDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flyweightDetailViewController.m; sourceTree = "<group>"; };
+		8EF84E061E5ED45400E5DC07 /* proxyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proxyDetailViewController.h; sourceTree = "<group>"; };
+		8EF84E071E5ED45400E5DC07 /* proxyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = proxyDetailViewController.m; sourceTree = "<group>"; };
+		8EF84E091E5ED46600E5DC07 /* mementoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mementoDetailViewController.h; sourceTree = "<group>"; };
+		8EF84E0A1E5ED46600E5DC07 /* mementoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mementoDetailViewController.m; sourceTree = "<group>"; };
+		8EF84E0C1E5ED49500E5DC07 /* templateMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = templateMethodViewController.h; sourceTree = "<group>"; };
+		8EF84E0D1E5ED49500E5DC07 /* templateMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = templateMethodViewController.m; sourceTree = "<group>"; };
+		8EF84E0F1E5ED4A500E5DC07 /* strategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strategyViewController.h; sourceTree = "<group>"; };
+		8EF84E101E5ED4A500E5DC07 /* strategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = strategyViewController.m; sourceTree = "<group>"; };
+		8EF84E121E5ED4B300E5DC07 /* commandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commandViewController.h; sourceTree = "<group>"; };
+		8EF84E131E5ED4B300E5DC07 /* commandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = commandViewController.m; sourceTree = "<group>"; };
+		8EF84E151E5ED4BC00E5DC07 /* flyweightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyweightViewController.h; sourceTree = "<group>"; };
+		8EF84E161E5ED4BC00E5DC07 /* flyweightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flyweightViewController.m; sourceTree = "<group>"; };
+		8EF84E181E5ED4C800E5DC07 /* proxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proxyViewController.h; sourceTree = "<group>"; };
+		8EF84E191E5ED4C800E5DC07 /* proxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = proxyViewController.m; sourceTree = "<group>"; };
+		8EF84E1B1E5ED4D500E5DC07 /* mementoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mementoViewController.h; sourceTree = "<group>"; };
+		8EF84E1C1E5ED4D500E5DC07 /* mementoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mementoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +407,8 @@
 				8EA1FA5E1E515B1200BA789C /* cwlDesignViewController.m */,
 				8E815AAA1E56980F00827039 /* cwlDesignPopularExplanation.h */,
 				8E815AAB1E56980F00827039 /* cwlDesignPopularExplanation.m */,
+				8EF84DB51E5E811D00E5DC07 /* baseViewController.h */,
+				8EF84DB61E5E811D00E5DC07 /* baseViewController.m */,
 			);
 			name = RootController;
 			sourceTree = "<group>";
@@ -375,6 +476,10 @@
 		8EF84D9B1E5D3DD300E5DC07 /* Adapter（适配器） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DB81E5E81F800E5DC07 /* adapterViewController.h */,
+				8EF84DB91E5E81F800E5DC07 /* adapterViewController.m */,
+				8EF84DBB1E5E84F500E5DC07 /* adapterDetailViewController.h */,
+				8EF84DBC1E5E84F500E5DC07 /* adapterDetailViewController.m */,
 			);
 			name = "Adapter（适配器）";
 			sourceTree = "<group>";
@@ -402,7 +507,7 @@
 			children = (
 				8EF84DA81E5D6BD900E5DC07 /* Chain of Responsibility（责任链） */,
 				8EF84DA71E5D6BB300E5DC07 /* Decrator（装饰） */,
-				8EF84DA61E5D6B8600E5DC07 /* Visitor（访问） */,
+				8EF84DA61E5D6B8600E5DC07 /* Visitor（访问者） */,
 			);
 			name = "行为扩展";
 			sourceTree = "<group>";
@@ -420,6 +525,10 @@
 		8EF84DA01E5D3E6F00E5DC07 /* Bridge（桥接） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DBE1E5E872300E5DC07 /* bridgeViewController.h */,
+				8EF84DBF1E5E872300E5DC07 /* bridgeViewController.m */,
+				8EF84DC11E5E878100E5DC07 /* bridgeDetailViewController.h */,
+				8EF84DC21E5E878100E5DC07 /* bridgeDetailViewController.m */,
 			);
 			name = "Bridge（桥接）";
 			sourceTree = "<group>";
@@ -427,6 +536,10 @@
 		8EF84DA11E5D3E9800E5DC07 /* Facade（外观） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DC41E5EBC7900E5DC07 /* facadeViewController.h */,
+				8EF84DC51E5EBC7900E5DC07 /* facadeViewController.m */,
+				8EF84DC71E5EBC9400E5DC07 /* facadeDetailViewController.h */,
+				8EF84DC81E5EBC9400E5DC07 /* facadeDetailViewController.m */,
 			);
 			name = "Facade（外观）";
 			sourceTree = "<group>";
@@ -434,6 +547,10 @@
 		8EF84DA21E5D3ED000E5DC07 /* Mediator（中介者） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DCA1E5EBE4E00E5DC07 /* mediatorViewController.h */,
+				8EF84DCB1E5EBE4E00E5DC07 /* mediatorViewController.m */,
+				8EF84DCD1E5EBEE900E5DC07 /* mediatorDetailViewController.h */,
+				8EF84DCE1E5EBEE900E5DC07 /* mediatorDetailViewController.m */,
 			);
 			name = "Mediator（中介者）";
 			sourceTree = "<group>";
@@ -441,6 +558,10 @@
 		8EF84DA31E5D3F0000E5DC07 /* Observer（观察者） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DD01E5EC0AF00E5DC07 /* observerViewController.h */,
+				8EF84DD11E5EC0AF00E5DC07 /* observerViewController.m */,
+				8EF84DD31E5EC0E400E5DC07 /* observerDetailViewController.h */,
+				8EF84DD41E5EC0E400E5DC07 /* observerDetailViewController.m */,
 			);
 			name = "Observer（观察者）";
 			sourceTree = "<group>";
@@ -448,6 +569,10 @@
 		8EF84DA41E5D637800E5DC07 /* Composite（组合） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DD61E5ECCE500E5DC07 /* compositeViewController.h */,
+				8EF84DD71E5ECCE500E5DC07 /* compositeViewController.m */,
+				8EF84DD91E5ECCF100E5DC07 /* compositeDetailViewController.h */,
+				8EF84DDA1E5ECCF200E5DC07 /* compositeDetailViewController.m */,
 			);
 			name = "Composite（组合）";
 			sourceTree = "<group>";
@@ -455,20 +580,32 @@
 		8EF84DA51E5D6B6500E5DC07 /* Iterator（迭代） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DE51E5ECF6100E5DC07 /* iteratorViewController.h */,
+				8EF84DE61E5ECF6100E5DC07 /* iteratorViewController.m */,
+				8EF84DE21E5ECF5200E5DC07 /* iteratorDetailViewController.h */,
+				8EF84DE31E5ECF5200E5DC07 /* iteratorDetailViewController.m */,
 			);
 			name = "Iterator（迭代）";
 			sourceTree = "<group>";
 		};
-		8EF84DA61E5D6B8600E5DC07 /* Visitor（访问） */ = {
+		8EF84DA61E5D6B8600E5DC07 /* Visitor（访问者） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DE81E5ED04800E5DC07 /* visitorViewController.h */,
+				8EF84DE91E5ED04800E5DC07 /* visitorViewController.m */,
+				8EF84DF11E5ED25300E5DC07 /* visitorDetailViewController.h */,
+				8EF84DF21E5ED25300E5DC07 /* visitorDetailViewController.m */,
 			);
-			name = "Visitor（访问）";
+			name = "Visitor（访问者）";
 			sourceTree = "<group>";
 		};
 		8EF84DA71E5D6BB300E5DC07 /* Decrator（装饰） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DEB1E5ED05800E5DC07 /* decratorViewController.h */,
+				8EF84DEC1E5ED05800E5DC07 /* decratorViewController.m */,
+				8EF84DF41E5ED25E00E5DC07 /* decratorDetailViewController.h */,
+				8EF84DF51E5ED25E00E5DC07 /* decratorDetailViewController.m */,
 			);
 			name = "Decrator（装饰）";
 			sourceTree = "<group>";
@@ -476,6 +613,10 @@
 		8EF84DA81E5D6BD900E5DC07 /* Chain of Responsibility（责任链） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DEE1E5ED07100E5DC07 /* chainOfResponsibilityViewController.h */,
+				8EF84DEF1E5ED07100E5DC07 /* chainOfResponsibilityViewController.m */,
+				8EF84DF71E5ED27100E5DC07 /* chainOfResponsibilityDetailViewController.h */,
+				8EF84DF81E5ED27100E5DC07 /* chainOfResponsibilityDetailViewController.m */,
 			);
 			name = "Chain of Responsibility（责任链）";
 			sourceTree = "<group>";
@@ -510,6 +651,10 @@
 		8EF84DAC1E5D71AA00E5DC07 /* Template Method（模板方法） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DFA1E5ED40C00E5DC07 /* templateMethodDetailViewController.h */,
+				8EF84DFB1E5ED40C00E5DC07 /* templateMethodDetailViewController.m */,
+				8EF84E0C1E5ED49500E5DC07 /* templateMethodViewController.h */,
+				8EF84E0D1E5ED49500E5DC07 /* templateMethodViewController.m */,
 			);
 			name = "Template Method（模板方法）";
 			sourceTree = "<group>";
@@ -517,6 +662,10 @@
 		8EF84DAD1E5D71EE00E5DC07 /* Strategy（策略） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84DFD1E5ED41F00E5DC07 /* strategyDetailViewController.h */,
+				8EF84DFE1E5ED41F00E5DC07 /* strategyDetailViewController.m */,
+				8EF84E0F1E5ED4A500E5DC07 /* strategyViewController.h */,
+				8EF84E101E5ED4A500E5DC07 /* strategyViewController.m */,
 			);
 			name = "Strategy（策略）";
 			sourceTree = "<group>";
@@ -524,6 +673,10 @@
 		8EF84DAE1E5D750B00E5DC07 /* Command（命令） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84E001E5ED43B00E5DC07 /* commandDetailViewController.h */,
+				8EF84E011E5ED43B00E5DC07 /* commandDetailViewController.m */,
+				8EF84E121E5ED4B300E5DC07 /* commandViewController.h */,
+				8EF84E131E5ED4B300E5DC07 /* commandViewController.m */,
 			);
 			name = "Command（命令）";
 			sourceTree = "<group>";
@@ -531,6 +684,10 @@
 		8EF84DAF1E5D752000E5DC07 /* Flyweight（享元） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84E031E5ED44A00E5DC07 /* flyweightDetailViewController.h */,
+				8EF84E041E5ED44A00E5DC07 /* flyweightDetailViewController.m */,
+				8EF84E151E5ED4BC00E5DC07 /* flyweightViewController.h */,
+				8EF84E161E5ED4BC00E5DC07 /* flyweightViewController.m */,
 			);
 			name = "Flyweight（享元）";
 			sourceTree = "<group>";
@@ -538,6 +695,10 @@
 		8EF84DB01E5D75BF00E5DC07 /* Proxy（代理） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84E061E5ED45400E5DC07 /* proxyDetailViewController.h */,
+				8EF84E071E5ED45400E5DC07 /* proxyDetailViewController.m */,
+				8EF84E181E5ED4C800E5DC07 /* proxyViewController.h */,
+				8EF84E191E5ED4C800E5DC07 /* proxyViewController.m */,
 			);
 			name = "Proxy（代理）";
 			sourceTree = "<group>";
@@ -545,6 +706,10 @@
 		8EF84DB11E5D75D500E5DC07 /* Memento（备忘录） */ = {
 			isa = PBXGroup;
 			children = (
+				8EF84E091E5ED46600E5DC07 /* mementoDetailViewController.h */,
+				8EF84E0A1E5ED46600E5DC07 /* mementoDetailViewController.m */,
+				8EF84E1B1E5ED4D500E5DC07 /* mementoViewController.h */,
+				8EF84E1C1E5ED4D500E5DC07 /* mementoViewController.m */,
 			);
 			name = "Memento（备忘录）";
 			sourceTree = "<group>";
@@ -684,34 +849,67 @@
 				8EA1FA2E1E515A3A00BA789C /* AppDelegate.m in Sources */,
 				8EC6923F1E51BB0800CE331D /* Singleton.m in Sources */,
 				8E815A251E52E11A00827039 /* abstractFactoryButton.m in Sources */,
+				8EF84DDB1E5ECCF200E5DC07 /* compositeDetailViewController.m in Sources */,
+				8EF84DC91E5EBC9400E5DC07 /* facadeDetailViewController.m in Sources */,
+				8EF84DBA1E5E81F800E5DC07 /* adapterViewController.m in Sources */,
 				8EF84DB41E5D798500E5DC07 /* cwlDesignModel.m in Sources */,
 				8EC692461E51ED6F00CE331D /* factoryDetailViewController.m in Sources */,
+				8EF84DE71E5ECF6100E5DC07 /* iteratorViewController.m in Sources */,
+				8EF84DD21E5EC0AF00E5DC07 /* observerViewController.m in Sources */,
 				8E815AAC1E56980F00827039 /* cwlDesignPopularExplanation.m in Sources */,
 				8E815A1C1E529DF700827039 /* abstractFactoryViewController.m in Sources */,
 				8EA1FA2B1E515A3A00BA789C /* main.m in Sources */,
+				8EF84E111E5ED4A500E5DC07 /* strategyViewController.m in Sources */,
 				8E815AB91E56D62C00827039 /* prototypePeople.m in Sources */,
+				8EF84DB71E5E811D00E5DC07 /* baseViewController.m in Sources */,
 				8E815AA31E55AF3400827039 /* buildAssemblyCar.m in Sources */,
+				8EF84DEA1E5ED04800E5DC07 /* visitorViewController.m in Sources */,
 				8E815A2C1E52F10900827039 /* builderDetailViewController.m in Sources */,
+				8EF84DD81E5ECCE500E5DC07 /* compositeViewController.m in Sources */,
 				8EA1FA6E1E51988000BA789C /* singletonViewController.m in Sources */,
+				8EF84DF01E5ED07100E5DC07 /* chainOfResponsibilityViewController.m in Sources */,
+				8EF84DC31E5E878100E5DC07 /* bridgeDetailViewController.m in Sources */,
 				8E815AB31E56C99800827039 /* prototypeDetailViewController.m in Sources */,
+				8EF84E051E5ED44A00E5DC07 /* flyweightDetailViewController.m in Sources */,
+				8EF84DED1E5ED05800E5DC07 /* decratorViewController.m in Sources */,
 				8E815A1F1E529E0400827039 /* abstractFactoryDetailViewController.m in Sources */,
 				8E815A291E52ED1700827039 /* builderViewController.m in Sources */,
+				8EF84DC61E5EBC7900E5DC07 /* facadeViewController.m in Sources */,
 				8E815ABD1E56E7CB00827039 /* prototypeStudent.m in Sources */,
 				8E815A8F1E55884D00827039 /* builderStandarCharacterBuilder.m in Sources */,
 				8E815AA61E55D93500827039 /* buildCar.m in Sources */,
 				8EA1FA641E518E0800BA789C /* cwlDesignListCell.m in Sources */,
+				8EF84DD51E5EC0E400E5DC07 /* observerDetailViewController.m in Sources */,
+				8EF84DF31E5ED25300E5DC07 /* visitorDetailViewController.m in Sources */,
+				8EF84E081E5ED45400E5DC07 /* proxyDetailViewController.m in Sources */,
+				8EF84DCF1E5EBEE900E5DC07 /* mediatorDetailViewController.m in Sources */,
+				8EF84DFF1E5ED41F00E5DC07 /* strategyDetailViewController.m in Sources */,
+				8EF84E1D1E5ED4D500E5DC07 /* mementoViewController.m in Sources */,
 				8EC692491E51F3F200CE331D /* factory.m in Sources */,
 				8EA1FA691E51979500BA789C /* cwlDesignListModel.m in Sources */,
+				8EF84E021E5ED43B00E5DC07 /* commandDetailViewController.m in Sources */,
 				8EC6923C1E51AA8F00CE331D /* singletonDetailViewController.m in Sources */,
+				8EF84DFC1E5ED40C00E5DC07 /* templateMethodDetailViewController.m in Sources */,
 				8EC6924F1E51F83400CE331D /* Device.m in Sources */,
 				8E815A921E558C0700827039 /* builderChasingGame.m in Sources */,
 				8E815AB01E56C98600827039 /* prototypeViewController.m in Sources */,
+				8EF84E0B1E5ED46600E5DC07 /* mementoDetailViewController.m in Sources */,
+				8EF84E141E5ED4B300E5DC07 /* commandViewController.m in Sources */,
+				8EF84E1A1E5ED4C800E5DC07 /* proxyViewController.m in Sources */,
 				8E815A891E5582FD00827039 /* builderCharacter.m in Sources */,
 				8EA1FA5F1E515B1200BA789C /* cwlDesignViewController.m in Sources */,
+				8EF84DCC1E5EBE4E00E5DC07 /* mediatorViewController.m in Sources */,
+				8EF84DBD1E5E84F500E5DC07 /* adapterDetailViewController.m in Sources */,
+				8EF84DF91E5ED27100E5DC07 /* chainOfResponsibilityDetailViewController.m in Sources */,
 				8E815A8C1E5584DF00827039 /* builderCharacterBuilder.m in Sources */,
+				8EF84E171E5ED4BC00E5DC07 /* flyweightViewController.m in Sources */,
+				8EF84E0E1E5ED49500E5DC07 /* templateMethodViewController.m in Sources */,
 				8E815A9B1E55AB4C00827039 /* buildBenz.m in Sources */,
+				8EF84DE41E5ECF5200E5DC07 /* iteratorDetailViewController.m in Sources */,
+				8EF84DC01E5E872300E5DC07 /* bridgeViewController.m in Sources */,
 				8EC692431E51ED6000CE331D /* factoryViewController.m in Sources */,
 				8E815A981E5590EE00827039 /* buildCarBuilder.m in Sources */,
+				8EF84DF61E5ED25E00E5DC07 /* decratorDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
