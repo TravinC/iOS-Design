@@ -2,8 +2,8 @@
 //  cwlDesignModel.m
 //  iOSDesign
 //
-//  Created by 崔文龙 on 17/2/22.
-//  Copyright © 2017年 cwl. All rights reserved.
+//  Created by 崔文龙 on 16/7/22.
+//  Copyright © 2016年 cwl. All rights reserved.
 //
 
 // 这就是VM了
